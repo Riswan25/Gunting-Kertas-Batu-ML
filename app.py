@@ -18,7 +18,6 @@ def website():
 def predict():
     imagefile = request.files['imagefile']
     image_path = './images/' + imagefile.filename
-    imagefile.save(image_path)
     
     image = load_img(image_path, target_size=(100,100))
     image = img_to_array(image)
