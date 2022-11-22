@@ -12,7 +12,7 @@ model = load_model('batukertasgunting.hdf5')
 
 @app.route('/')
 def website():
-    return render_template('index.html')
+    return render_template('gunting_kertas_batu.html')
 
 @app.route('/', methods=['POST'])
 def predict():
