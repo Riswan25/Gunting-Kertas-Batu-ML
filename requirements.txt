@@ -8,7 +8,7 @@ colorama==0.4.6
 distlib==0.3.6
 filelock==3.8.0
 Flask==2.2.2
-flatbuffers==22.10.26
+flatbuffers==23.1.21
 gast==0.4.0
 google-auth==2.14.1
 google-auth-oauthlib==0.4.6
@@ -19,7 +19,7 @@ h5py==3.7.0
 idna==3.4
 itsdangerous==2.1.2
 Jinja2==3.1.2
-keras
+keras==2.11.0
 libclang==14.0.6
 Markdown==3.4.1
 MarkupSafe==2.1.1
@@ -29,7 +29,7 @@ opt-einsum==3.3.0
 packaging==21.3
 Pillow==9.3.0
 platformdirs==2.5.4
-protobuf==3.19.6
+protobuf==4.21.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pyparsing==3.0.9
@@ -40,9 +40,9 @@ six==1.16.0
 tensorboard==2.11.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow
-tensorflow-estimator
-tensorflow-io-gcs-filesystem
+tensorflow==2.12.0
+tensorflow-estimator==2.12.0
+tensorflow-io-gcs-filesystem==0.27.0
 termcolor==2.1.1
 typing_extensions==4.4.0
 urllib3==1.26.12
